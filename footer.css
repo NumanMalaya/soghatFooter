@@ -78,13 +78,15 @@
     top: 0;
     border: 1px solid rgba(255, 196, 0, 0.913);
 }
-.footer .footer_bg {
-    margin-top: -50px;
+.footer-animation {
+    overflow: hidden;
+    margin-top: -30px;
     position: relative;
     background: url(pics/footer_bg.svg) no-repeat scroll center 0;
+    background-color: rgb(249 249 249);
     height: 230px;
 }
-.footer .footer_bg .footer_bg_one {
+.footer-animation .footer_bg_one {
     background: url(pics/delivery_van.gif) no-repeat center center;
     width: 330px;
     height: 105px;
@@ -93,7 +95,7 @@
     bottom: 0;
     animation: moveVan 20s linear infinite;
 }
-.footer .footer_bg .footer_bg_two {
+.footer-animation .footer_bg_two {
     background: url(pics/delivery_bike.gif) no-repeat center center;
     width: 88px;
     height: 100px;
@@ -108,7 +110,7 @@
     }
 
     100% {
-        transform: translateX(360%);
+        transform: translateX(370%);
     }
 }
 @keyframes moveBike {
@@ -120,37 +122,8 @@
         transform: translateX(1400%);
     }
 }
-.footer-mobile {
-    visibility: hidden;
-    position: fixed;
-    bottom: 0px;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: 1000;
-}
-.footer-mobile ul {
-    background: white;
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    justify-content: space-around;
-}
-.footer-mobile ul li {
-    text-align: center;
-    padding: 5px;
-}
-.footer-mobile ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 13px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 @media screen and (max-width: 992px) {
-    .footer .footer_bg {
+    .footer-animation {
         display: none;
     }
 }
