@@ -1,0 +1,156 @@
+.footer {
+    border-top: 2px solid #ebebeb;
+    background: rgb(249 249 249);
+}
+.footer .r1 .cl1 p,
+.footer .r1 .cl4 p {
+    margin-bottom: 14px;
+    font-size: 13px;
+    color: black;
+    line-height: 31px;
+}
+.footer .r1 .cl1 span {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+.footer .r1 .cl2 h4,
+.footer .r1 .cl3 h4,
+.footer .r1 .cl4 h4 {
+    position: relative;
+}
+.footer .r1 .cl2 h4::after,
+.footer .r1 .cl3 h4::after,
+.footer .r1 .cl4 h4::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 2px;
+    width: 50px;
+    background-color: rgba(255, 196, 0, 0.913);
+}
+.footer .r1 .cl2 ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .r1 .cl2 ul,
+.footer .r1 .cl3 ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.footer .r1 .cl2 ul li {
+    flex: 1 0 50%;
+}
+.footer .r1 .cl2 ul li a,
+.footer .r1 .cl3 ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    line-height: 30px;
+}
+.footer .r1 .cl2 ul li a:hover,
+.footer .r1 .cl3 ul li a:hover {
+    color: rgba(255, 196, 0, 0.913);
+    transition: 0.8s;
+}
+.footer .r1 .cl4 .subscribe-form {
+    position: relative;
+    overflow: hidden;
+}
+.footer .r1 .cl4 .subscribe-form input {
+    width: 100%;
+    padding: 10px 22px;
+    background: #2e2e2e;
+    color: white;
+    border: 2px solid #2e2e2e;
+    border-radius: 10px;
+}
+.footer .r1 .cl4 .subscribe-form input::placeholder {
+    color: white;
+}
+.footer .r1 .cl4 .subscribe-form button {
+    position: absolute;
+    right: 0;
+    padding: 6px 18px;
+    top: 0;
+    border: 1px solid rgba(255, 196, 0, 0.913);
+}
+.footer .footer_bg {
+    margin-top: -50px;
+    position: relative;
+    background: url(pics/footer_bg.svg) no-repeat scroll center 0;
+    height: 230px;
+}
+.footer .footer_bg .footer_bg_one {
+    background: url(pics/delivery_van.gif) no-repeat center center;
+    width: 330px;
+    height: 105px;
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+    animation: moveVan 20s linear infinite;
+}
+.footer .footer_bg .footer_bg_two {
+    background: url(pics/delivery_bike.gif) no-repeat center center;
+    width: 88px;
+    height: 100px;
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+    animation: moveBike 20s linear infinite;
+}
+@keyframes moveVan {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(360%);
+    }
+}
+@keyframes moveBike {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(1400%);
+    }
+}
+.footer-mobile {
+    visibility: hidden;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.footer-mobile ul {
+    background: white;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+.footer-mobile ul li {
+    text-align: center;
+    padding: 5px;
+}
+.footer-mobile ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width: 992px) {
+    .footer .footer_bg {
+        display: none;
+    }
+}
