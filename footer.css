@@ -19,7 +19,7 @@
 }
 .footer .r1 .cl1 .footer-icons a i{
     font-size: 25px;
-    margin: 5px 0px;
+    margin: 5px 5px 5px 0px;
 }
 .footer .r1 .cl2 h4,
 .footer .r1 .cl3 h4,
@@ -83,6 +83,32 @@
     top: 0;
     border: 1px solid rgba(255, 196, 0, 0.913);
 }
+.footer .r1 .cl4 .subscribe-form-copy{
+    position: relative;
+    overflow: hidden;
+    border-radius: 100px;
+    box-shadow: 0px 1px 3px 1px rgb(177, 176, 176);
+}
+.footer .r1 .cl4 .subscribe-form-copy input {
+    width: 100%;
+    padding: 13px 22px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+}
+.footer .r1 .cl4 .subscribe-form-copy input:hover{
+    background: #e4e3e3;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.footer .r1 .cl4 .subscribe-form-copy button{
+    position: absolute;
+    border-radius: 100px;
+    right: 7px;
+    padding: 2px 8px;
+    top: 5px;
+    border: 1px solid rgba(255, 196, 0, 0.913);
+}
 .footer-animation {
     overflow: hidden;
     margin-top: -20px;
@@ -108,6 +134,17 @@
     position: absolute;
     bottom: 0;
     animation: moveBike 20s linear infinite;
+}
+.payment-gateways .r1{
+    border: 1px solid rgb(181, 181, 181);
+    background-color: #f7f7f7;
+}
+.payment-gateways .r1 .cl1{    
+    transform: translateY(10%);
+}
+.payment-gateways .r1 .cl1 p{    
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif ;
 }
 @keyframes moveVan {
     0% {
