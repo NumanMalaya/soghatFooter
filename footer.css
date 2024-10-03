@@ -2,7 +2,7 @@
     border-top: 2px solid #ebebeb;
     background: rgb(249 249 249);
 }
-.footer .r1 .cl1 a img{
+.footer .r1 .cl1 a .website_logo{
     width: 150px;
 }
 .footer .r1 .cl1 p, .footer .r1 .cl4 p{
@@ -17,8 +17,8 @@
     font-weight: 700;
     font-family: "Poppins", sans-serif;
 }
-.footer .r1 .cl1 .footer-icons a i{
-    font-size: 25px;
+.footer .r1 .cl1 .footer-icons a img{
+    width: 24px;
     margin: 5px 5px 5px 0px;
 }
 .footer .r1 .cl2 h4,
@@ -136,7 +136,8 @@
     animation: moveBike 20s linear infinite;
 }
 .payment-gateways .r1{
-    border: 1px solid rgb(181, 181, 181);
+    box-shadow: 0px 1px 3px 1px rgb(177, 176, 176);
+    /* border: 1px solid rgb(181, 181, 181); */
     background-color: #f7f7f7;
 }
 .payment-gateways .r1 .cl1{    
