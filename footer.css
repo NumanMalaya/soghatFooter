@@ -17,13 +17,28 @@
     font-weight: 700;
     font-family: "Poppins", sans-serif;
 }
-.footer .r1 .cl1 .footer-icons a img{
+/* .footer .r1 .cl1 .footer-icons a img{
     width: 24px;
     margin: 5px 5px 5px 0px;
+} */
+.footer .r1 .cl1 .footer-icons i{
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid rgba(251, 181, 40, 1);
+    padding: 5px;
+    border-radius: 100%;
+    color: rgba(251, 181, 40, 1);
+}
+.footer .r1 .cl1 .footer-icons i:hover{
+    background-color: rgba(251, 181, 40, 1);
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
 }
 .footer .r1 .cl2 h4,
 .footer .r1 .cl3 h4,
 .footer .r1 .cl4 h4 {
+    width: fit-content;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -37,7 +52,7 @@
     left: 0;
     bottom: -15px;
     height: 2px;
-    width: 50px;
+    width: 100%;
     background-color: rgba(255, 196, 0, 0.913);
 }
 .footer .r1 .cl2 ul,
@@ -137,7 +152,6 @@
 }
 .payment-gateways .r1{
     box-shadow: 0px 1px 3px 1px rgb(177, 176, 176);
-    /* border: 1px solid rgb(181, 181, 181); */
     background-color: #f7f7f7;
 }
 .payment-gateways .r1 .cl1{    
@@ -146,6 +160,9 @@
 .payment-gateways .r1 .cl1 p{    
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif ;
+}
+.payment-gateways .r1 .cl2{    
+    transform: translateY(-10%);
 }
 @keyframes moveVan {
     0% {
