@@ -1,6 +1,7 @@
 .footer {
     border-top: 2px solid #ebebeb;
     background: rgb(249 249 249);
+    /* background: url(pics/footer_bg.svg) no-repeat scroll center 0; */
 }
 .footer .r1 .cl1 a .website_logo{
     width: 150px;

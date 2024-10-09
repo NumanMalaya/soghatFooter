@@ -9,13 +9,27 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <?php
+        $footerAnimation = true;
+        if($footerAnimation){
+            $footerAnimationDisplay = "block";
+        }
+        else{
+            $footerAnimationDisplay = "none";
+        }
+    ?>
+    <style>
+        .footer-animation{
+            display: <?php echo $footerAnimationDisplay; ?>;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container-fluid pt-5 ps-lg-0 ps-md-4 footer">
         <div class="row px-lg-5 r1">
             <div class="col-xl-3 col-lg-4 pb-4 cl1">
-                <a href="index.html"><img src="pics/website_logo.svg" class="mt-1 website_logo" alt=""></a>
+                <a href="index.html"><img src="pics/website_logo.svg" class="mt-1 ps-2 website_logo" alt=""></a>
                 <p class="pt-2">At Soghats we offer a range of traditional Pakistani sweets known for quality, and
                     culture.</p>
                 <div class="footer-icons my-3">
