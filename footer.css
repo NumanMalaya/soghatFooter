@@ -1,7 +1,6 @@
 .footer {
     border-top: 2px solid #ebebeb;
     background: rgb(249 249 249);
-    /* background: url(pics/footer_bg.svg) no-repeat scroll center 0; */
 }
 .footer .r1 .cl1 a .website_logo{
     width: 150px;
@@ -113,7 +112,7 @@
     background-size: 100%;
     position: absolute;
     bottom: 0;
-    animation: moveVan 20s linear infinite;
+    animation: moveVan 25s linear infinite;
 }
 .footer-animation .footer_bg_two {
     background: url(pics/delivery_bike.gif) no-repeat center center;
@@ -140,7 +139,7 @@
 }
 @keyframes moveVan {
     0% {
-        transform: translateX(-100%);
+        transform: translateX(-120%);
     }
 
     100% {
@@ -149,11 +148,11 @@
 }
 @keyframes moveBike {
     0% {
-        transform: translateX(-100%);
+        transform: translateX(-125%);
     }
 
     100% {
-        transform: translateX(1400%);
+        transform: translateX(1500%);
     }
 }
 @media screen and (max-width: 992px) {
