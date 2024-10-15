@@ -123,7 +123,7 @@
     bottom: 0;
     animation: moveBike 20s linear infinite;
 }
-.payment-gateways .r1{
+.payment-gateways{
     box-shadow: 0px 1px 3px 1px rgb(177, 176, 176);
     background-color: #f7f7f7;
 }
